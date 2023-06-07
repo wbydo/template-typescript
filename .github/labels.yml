@@ -1,0 +1,18 @@
+- name: 'breaking'
+  description: Breaking Change
+  color: FFBE0B
+- name: 'enhancement'
+  description: New feature or request
+  color: FB5607
+- name: 'bug'
+  description: Something isn't working
+  color: FF006E
+- name: 'maintenance'
+  description: Maintenance
+  color: C11CAD
+- name: 'documentation'
+  description: Improvements or additions to documentation
+  color: 8338ec
+- name: 'dependencies'
+  description: Pull requests that update a dependency file
+  color: 3a86ff

@@ -1,7 +1,7 @@
 {
   "name": "template-typescript",
   "description": "",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "wbydo",
   "devDependencies": {
     "@types/jest": "^29.5.1",

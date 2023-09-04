@@ -5,7 +5,7 @@
   "author": "wbydo",
   "devDependencies": {
     "@types/jest": "^29.5.1",
-    "@types/node": "^20.2.5",
+    "@types/node": "^20.5.9",
     "@typescript-eslint/eslint-plugin": "^5.59.7",
     "@typescript-eslint/parser": "^5.59.7",
     "esbuild-jest": "^0.5.0",

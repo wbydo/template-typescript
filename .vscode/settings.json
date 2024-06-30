@@ -1,4 +1,6 @@
 {
+  "deno.enable": false,
+  "deno.lint": false,
   "editor.codeActionsOnSave": {
     "source.organizeImports": "explicit"
   }

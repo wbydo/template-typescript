@@ -4,12 +4,17 @@
   "version": "1.0.0",
   "author": "",
   "dependencies": {
-    "typescript": "^5.7.2"
+    "typescript": "<5.7.0"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/js": "^9.15.0",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
     "fixpack": "^4.0.0",
     "prettier": "^3.3.3",
-    "tsx": "^4.19.2"
+    "tsx": "^4.19.2",
+    "typescript-eslint": "^8.15.0"
   },
   "license": "ISC",
   "private": true,
@@ -18,7 +23,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsx src/index.ts",
     "fmt": "prettier . --check",
-    "fmt:write": "prettier . --write"
+    "fmt:write": "prettier . --write",
+    "lint": "eslint src"
   },
   "type": "module"
 }

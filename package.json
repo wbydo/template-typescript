@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "fixpack": "^4.0.0",
+    "prettier": "^3.3.3",
     "tsx": "^4.19.2"
   },
   "license": "ISC",
@@ -15,7 +16,9 @@
   "scripts": {
     "fixpack": "fixpack",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsx src/index.ts"
+    "start": "tsx src/index.ts",
+    "fmt": "prettier . --check",
+    "fmt:write": "prettier . --write"
   },
   "type": "module"
 }

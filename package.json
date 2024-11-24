@@ -1,0 +1,21 @@
+{
+  "name": "template-typescript",
+  "description": "",
+  "version": "1.0.0",
+  "author": "",
+  "dependencies": {
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "fixpack": "^4.0.0",
+    "tsx": "^4.19.2"
+  },
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "fixpack": "fixpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx src/index.ts"
+  },
+  "type": "module"
+}

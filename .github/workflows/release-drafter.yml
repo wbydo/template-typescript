@@ -1,0 +1,20 @@
+name: Release Drafter
+
+on:
+  push:
+    branches:
+      - release
+    pull_request:
+      types:
+        - opened
+        - reopened
+        - synchronize
+
+jobs:
+  release-drafter:
+    name: Release Drafter
+    runs-on: ubuntu-latest
+    steps:
+      - uses: release-drafter/release-drafter@v5.19.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,7 +1,7 @@
 {
   "name": "template-typescript",
   "description": "",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "",
   "dependencies": {
     "typescript": "<5.7.0"

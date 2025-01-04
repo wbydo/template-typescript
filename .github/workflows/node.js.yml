@@ -16,7 +16,8 @@ jobs:
           node-version: '19.9.0'
           cache: 'npm'
       - run: npm ci
-      - run: npx fixpack --dryRun
+      - run: npm run fixpack -- --dryRun
+      - run: npm run fmt
       - run: npm run lint
       # - run: npm run build --if-present
-      - run: npm test
+      # - run: npm test

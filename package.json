@@ -2,31 +2,29 @@
   "name": "template-typescript",
   "description": "",
   "version": "1.0.0",
-  "author": "wbydo",
-  "devDependencies": {
-    "@types/jest": "^29.5.1",
-    "@types/node": "^20.2.5",
-    "@typescript-eslint/eslint-plugin": "^5.59.7",
-    "@typescript-eslint/parser": "^5.59.7",
-    "esbuild-jest": "^0.5.0",
-    "esbuild-register": "^3.4.2",
-    "eslint": "^8.41.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "fixpack": "^4.0.0",
-    "jest": "^29.5.0",
-    "npm-check-updates": "^16.10.12",
-    "prettier": "^2.8.8",
-    "typescript": "^5.0.4"
+  "author": "",
+  "dependencies": {
+    "typescript": "<5.7.0"
   },
-  "main": "index.js",
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/js": "^9.15.0",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "fixpack": "^4.0.0",
+    "prettier": "^3.3.3",
+    "tsx": "^4.19.2",
+    "typescript-eslint": "^8.15.0"
+  },
+  "license": "ISC",
   "private": true,
   "scripts": {
     "fixpack": "fixpack",
-    "lint": "eslint ./src/* && prettier --check src",
-    "lint:fix": "eslint ./src/* --fix && prettier -w src",
-    "start": "node -r esbuild-register src/index.ts",
-    "test": "jest",
-    "update": "ncu -u"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx src/index.ts",
+    "fmt": "prettier . --check",
+    "fmt:write": "prettier . --write",
+    "lint": "eslint src"
+  },
+  "type": "module"
 }

@@ -20,11 +20,11 @@
   "private": true,
   "scripts": {
     "fixpack": "fixpack",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsx src/index.ts",
     "fmt": "prettier . --check",
     "fmt:write": "prettier . --write",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "start": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module"
 }
